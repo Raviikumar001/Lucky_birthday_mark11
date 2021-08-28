@@ -5,20 +5,48 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Lucky Birthday.</title>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- font awsome links -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
     </head>
     <body>
-        <h1> Is your Birthday lucky? 😃😃</h1>
+        <header class="head">
+            <h2>Lucky Birthday.</h2>
+        </header>
+        
+      <div class="content-box">
+        <h1> Is your Birthday 🎂😃lucky? 😃😃</h1>
+        <p>Well this is for fun, don't be said if your's is not lucky.</p>
+      </div>
+        
         <div class="container">
-            <label for="date-of-birth">Date of birth</label>
+            <label class= "la-input" for="date-of-birth">Date of birth</label>
             <input type="date" id="date-of-birth">
-            <label for="lucky-number">Lucky Number.</label>
+            <label class= "la-input" for="lucky-number">Lucky Number.</label>
             <input id="lucky-number" type="number">
             <button id="check-number">Check Number</button>
-            <div id="output-box"></div>
+            <div id="output-box">
+                <p class="msg"></p>
+            </div>
         </div>
-
+        <footer class="main-footer">
+            <nav class="navbare">
+                <ul class="main-footer__links">
+                    <li class="main-footer__link">
+                        <i class="fab fa-linkedin"></i>    <a href="https://www.linkedin.com/in/ravi-kumar-5ab056143/"> Linkedin</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <i class="fab fa-github"></i>          <a href="https://github.com/Raviikumar001">Github</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <i class="fab fa-medium"></i>    <a href="https://medium.com/@kumarraviabhi007">Medium</a>
+                  </li>
+                </ul>
+            </nav>
+        </footer>
+    
 
         <script src="Index.js"></script>
     </body>

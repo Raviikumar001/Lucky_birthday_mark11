@@ -1,6 +1,7 @@
 
 const dateofBirth= document.querySelector('#date-of-birth');
 const luckyNumber = document.querySelector('#lucky-number');
+const msg = document.querySelector('.msg');
 
 const CheckNumberButton =   document.querySelector('#check-number');
 
@@ -8,9 +9,9 @@ const outputBox = document.querySelector('#output-box');
 function compareValues(sum,luckyNumber)
 {
    if(sum%luckyNumber===0){
-       outputBox.innerText= "Your birthday is lucky 🔥🔥";
+       msg.innerText= "Your birthday is lucky 🔥🔥";
    }else {
-       outputBox.innerText= "Your birthday is not lucky. 🤣It's just for fun.";
+       msg.innerText= "Your birthday is not lucky. 🤣It's just for fun.";
    }
 }
 
